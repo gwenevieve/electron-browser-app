@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+  <h1 class="text-center">My Favourite Browsers</h1>
+  <nav id="nav" class="text-center">
+    <ul>
+      <li><a href="explorer.html"><img src="img/IE.png" al.t="Internet Explorer"></a></li>
+        <li><a href="firefox.html"><img src="img/FF.png" alt="Mozilla Firefox"></a></li>
+          <li><a href="chrome.html"><img src="img/GC.png" alt="Google Chrome"></a></li>
+        </nav>
+
+
+<div id="content" class="container">
+
+
+
+
+
+</div><!-- end content div-->
+
+
+
+    </div><!-- end container -->
+    <footer>
+        <p class="text-center"><a href="about.html">About</a></p>
+<h3 class="text-center"><small>Made with <img src="img/heart.svg" height="20" width="20"> by Marie Felton</small></h3>
+</footer>
+
+<script> window.$ = window.jQuery = require('./js/jquery-3.2.1.min.js')</script>
+
+<script>
+
+$(document).ready(function () {
+
+    $('#content').load('home.html #page-content');
+// Allows me to load any link into the #page-content div
+    $('a').click(function (event) {
+
+        event.preventDefault();
+
+        var href = $(this).attr('href');
+
+        $('#content').load(href + ' #page-content');
+    });
+
+
+
+});
+
+</script>
+
+</body>
+</html>

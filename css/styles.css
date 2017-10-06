@@ -1,0 +1,58 @@
+/*I was going for something clean so I used basic CSS and Bootstrap*/
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+footer > p > a:hover {
+  text-decoration: none;
+}
+
+#page-content > div > div > ul > li {
+  display: block;
+
+}
+
+#page-content > div > div > p > a {
+  text-decoration: none;
+}
+
+#page-content > div > div > ul > li > a {
+  text-decoration: none;
+
+}
+
+
+a {
+  display: inline-block;
+  transition: 1s;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: purple;
+}
+
+nav ul li a:hover {
+  background:rgba(0,0,0,0.2);
+  border-radius: 50%;
+}
+
+h3 > small > img {
+  display: inline;
+
+}
+
+
+.spacer {
+  padding: 5em 0em;
+}
