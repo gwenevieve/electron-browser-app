@@ -1,5 +1,5 @@
 # electron-browser-app
-sample app made with electron
+basically a single page application wrapped in electron
 
 * HTML
 * CSS
