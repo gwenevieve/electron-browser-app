@@ -1,4 +1,4 @@
-# electron-browser-app (old)
+# electron-browser-app
 basically a single page application wrapped in electron
 
 * HTML
